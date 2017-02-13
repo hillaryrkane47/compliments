@@ -1,0 +1,16 @@
+<% if @index %>
+<div class="container">
+   <h1>Heyallll</h1>
+   <%= @rand %> <br>
+   <div class="links-cont">
+     <a href="http://localhost:3000/">Keep dem compliments comin</a> 😍<br>
+     <a href="https://www.aspca.org/">Thats enough dude</a> 🖕
+   </div>
+ </div>
+<% end %>
+
+<% if @name  %>
+  <div class="container">
+    <h1>Greetings <span class="name"><%= @name %></span>,<br> <%= @rand %>..</h1>
+  </div>
+<% end %>
